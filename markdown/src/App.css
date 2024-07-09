@@ -16,8 +16,9 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .upper {
@@ -110,11 +111,77 @@ i:active {
 
 
 .lower {
-  height: 60%;
+  height: auto;
   width: 60%;
   background-color: rgb(156, 156, 156);
+  border-radius: 10px;
+  margin-top: 50px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------RESPONSIVES-------------------------------------------*/
+/*-----------------------------------RESPONSIVES-------------------------------------------*/
+/*-----------------------------------RESPONSIVES-------------------------------------------*/
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 610px){
+  .editor_header {
+    margin-left: 5px;
+    width: 50%;
+    justify-content: flex-start;
+  }
+}
 
 
 
